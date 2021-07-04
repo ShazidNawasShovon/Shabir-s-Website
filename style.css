@@ -3,32 +3,43 @@ h1 {
   font-size: 70px;
   font-weight: 700;
 }
+.head2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
 .span-color {
   color: rgb(8, 84, 93);
 }
 body {
-  margin: 0px;
+  font-family: "Festive", cursive;
+  margin: 0%;
 }
-.welcome {
-  display: flex;
-  padding-left: 30px;
-  padding-bottom: 50px;
-}
+
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
-.my-dream {
-  display: flex;
-  padding-left: 30px;
-}
+
 .dream-banner {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience {
+  margin-left: 0%;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.flexible {
+  display: flex;
+  margin-bottom: 7%;
+}
 .intro {
   width: 50%;
+  padding-left: 30px;
+  padding-right: 80px;
 }
 img {
   width: 70%;
@@ -36,7 +47,6 @@ img {
   padding-left: 20%;
 }
 p {
-  font-family: "Festive", cursive;
   padding-bottom: 20px;
 }
 .link-button {
@@ -47,4 +57,51 @@ p {
   font-weight: 700;
   text-decoration: none;
   color: aliceblue;
+}
+.experience-div {
+  box-shadow: 10px 10px 40px black;
+  width: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  border-left: 10px solid;
+}
+.cont {
+  margin-left: 0%;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#no {
+  padding-left: 40px;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(cyan, blue);
+  border-radius: 10px;
+}
+#baby {
+  margin-left: 3%;
+  padding: 2%;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 2;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+#contact {
+  margin-left: 3%;
+  border-image: linear-gradient(rgb(140, 0, 255), rgb(0, 225, 255));
+  border-image-slice: 2;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+#work {
+  margin-left: 3%;
+  border-image: linear-gradient(rgba(255, 0, 0, 0.747), rgb(0, 255, 179));
+  border-image-slice: 2;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+footer p {
+  text-align: center;
 }
