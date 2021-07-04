@@ -1,0 +1,50 @@
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+  font-weight: 700;
+}
+.span-color {
+  color: rgb(8, 84, 93);
+}
+body {
+  margin: 0px;
+}
+.welcome {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.my-dream {
+  display: flex;
+  padding-left: 30px;
+}
+.dream-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.intro {
+  width: 50%;
+}
+img {
+  width: 70%;
+  padding-top: 50px;
+  padding-left: 20%;
+}
+p {
+  font-family: "Festive", cursive;
+  padding-bottom: 20px;
+}
+.link-button {
+  font-family: "Indie Flower", cursive;
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(192, 73, 44), coral);
+  padding: 1%;
+  font-weight: 700;
+  text-decoration: none;
+  color: aliceblue;
+}
